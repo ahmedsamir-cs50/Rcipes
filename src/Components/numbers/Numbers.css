@@ -1,0 +1,17 @@
+.numbers{
+    background-color: #a82d49;
+    padding: 25px 0px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+}
+.numbers h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0px;
+
+}
+.container {
+    margin: 25px 0px;
+}

@@ -1,0 +1,61 @@
+.Footer{
+    padding: 60px 0px;
+    background-color: #a82d49;
+    color: #fff;
+ }
+ .Footer ul li{
+    text-decoration: none;
+    padding: 4px 0px 4px 0px;
+    list-style: none;
+    font-size: 13.6px;
+    
+}
+.pspecial{
+
+}
+.Footer ul{
+    padding: 0px;
+    margin: 0px;
+}
+.Footer div{
+    padding-left: 22px;
+    text-align: left;
+}
+ .Footer p{
+    margin-bottom: 20px;
+ }
+ .Footer p:not(:last-child ,.pspecial){
+    letter-spacing: 2px;
+    font-size: 14.6px;
+    text-align: left;
+ }
+ .CopyRights{
+    margin-top: 50px;
+ }
+ .input{
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #490b19;
+    color: #fff;
+   position: relative;
+   outline: none !important;
+    border: none;
+    box-shadow: none;
+ }
+ .input:after{
+    content:"";
+   height: 2px;
+   position: absolute;
+   width: 0%;
+   top:20px;
+   left:0px;
+   background-color: rgb(255, 255, 255);
+   transition: 0.5s ease ;
+   -webkit-transition: 0.5s ease ;
+   -moz-transition: 0.5s ease ;
+   -ms-transition: 0.5s ease ;
+   -o-transition: 0.5s ease ;
+ };
+ .input:hover:after{
+    width: 100%;
+ }
